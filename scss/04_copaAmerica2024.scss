@@ -1,0 +1,120 @@
+$primary-color: black;
+$secondary-color: #5ec5f5;
+$tertiary-color: #ffffff;
+$font-stack: 'Roboto', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+
+
+body{
+  background: linear-gradient(45deg, #183c4d, #185568, #183c4d);
+  font-family: $font-stack;
+}
+
+a{
+  text-decoration: none;
+  color: $tertiary-color;
+}
+
+button {
+  background-color: $secondary-color;
+  color: $tertiary-color;
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+h1{
+  background-color: $secondary-color;
+  color: $tertiary-color;
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: center;
+}
+
+h2{
+  background-color: $secondary-color;
+  color: $tertiary-color;
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: center;
+}
+
+h3{
+  background-color: $secondary-color;
+  color: $tertiary-color;
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: center;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: $tertiary-color;
+  border: 5px solid $secondary-color;
+}
+
+.tituloCopaAmerica2024{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  width: 650px;
+  height: 1200px;
+  border: 5px solid cornflowerblue;
+}
+
+.tituloCopaAmerica2024 img{
+  width: 100%;
+  height: 100%;
+}
+
+.faseDeGruposCopaAmerica2024{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  width: 700px;
+  height: 1200px;
+  border: 5px solid cornflowerblue;
+}
+
+.faseFinalCopaAmerica2024{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  width: 700px;
+  height: 1200px;
+  border: 5px solid cornflowerblue;
+}
+
